@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1035129410358-u3nmu0nt24m084lkt8jhs6luruasldho.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1035129410358-u3nmu0nt24m084lkt8jhs6luruasldho</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1035129410358-ioil4oosoedtf13mbc0eof3lkth86dpu.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDOr4LqbkbGccnu_ZYMDQGI4OKmQtkzswg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1035129410358</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Prakash.app</string>
+	<key>PROJECT_ID</key>
+	<string>prakash-d66ac</string>
+	<key>STORAGE_BUCKET</key>
+	<string>prakash-d66ac.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1035129410358:ios:271f77fe9d141778e35997</string>
+	<key>DATABASE_URL</key>
+	<string>https://prakash-d66ac.firebaseio.com</string>
+</dict>
+</plist>

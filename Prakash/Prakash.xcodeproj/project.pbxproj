@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180BE6332427D47700D98F30 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BE6322427D47700D98F30 /* WelcomeViewController.swift */; };
+		185B8D7A24461FA000CE19B4 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B8D7924461FA000CE19B4 /* ItemViewController.swift */; };
+		18B65045242278B7008D41C2 /* YoutubePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B65044242278B7008D41C2 /* YoutubePlayerView.swift */; };
+		18B65047242278E4008D41C2 /* YoutubePlayerExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B65046242278E4008D41C2 /* YoutubePlayerExtras.swift */; };
+		18E9DA3A24228EB30081C6DE /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9DA3924228EB30081C6DE /* PlayerVC.swift */; };
+		18F620B2242A64DE009E11F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F620B1242A64DE009E11F2 /* GoogleService-Info.plist */; };
+		18F620BB242A81D3009E11F2 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F620BA242A81D3009E11F2 /* NotificationService.swift */; };
+		18F620BF242A81D3009E11F2 /* Service.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18F620B8242A81D3009E11F2 /* Service.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3740726824157701001D3336 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3740726724157701001D3336 /* ChannelViewController.swift */; };
+		3740726B24157F8C001D3336 /* BloodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3740726A24157F8C001D3336 /* BloodViewController.swift */; };
+		3740726E24159B64001D3336 /* DetailHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3740726D24159B64001D3336 /* DetailHistoryViewController.swift */; };
+		377E409D24138340001858A4 /* PrakashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E409C24138340001858A4 /* PrakashViewController.swift */; };
+		377E40A0241394D2001858A4 /* PrakashDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E409F241394D2001858A4 /* PrakashDetailViewController.swift */; };
+		377E40A32413AC97001858A4 /* DirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E40A22413AC97001858A4 /* DirectoryViewController.swift */; };
+		37AB3CBB241CA4FC00E5FEB6 /* AddBloodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AB3CBA241CA4FC00E5FEB6 /* AddBloodViewController.swift */; };
+		37AB3CBE241CB79100E5FEB6 /* AddDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AB3CBD241CB79100E5FEB6 /* AddDirectoryViewController.swift */; };
+		37AB3CC1241CC1AE00E5FEB6 /* AddVideoAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AB3CC0241CC1AE00E5FEB6 /* AddVideoAdViewController.swift */; };
+		37BCBFB5241957AF00C1A422 /* KDNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BCBFB4241957AF00C1A422 /* KDNewsViewController.swift */; };
+		37C51D31240F674600412112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C51D30240F674600412112 /* AppDelegate.swift */; };
+		37C51D36240F674600412112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C51D34240F674600412112 /* Main.storyboard */; };
+		37C51D38240F674C00412112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C51D37240F674C00412112 /* Assets.xcassets */; };
+		37C51D3B240F674C00412112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C51D39240F674C00412112 /* LaunchScreen.storyboard */; };
+		37C51D46240F688300412112 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C51D43240F688300412112 /* APICall.swift */; };
+		37C51D47240F688300412112 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C51D44240F688300412112 /* Constant.swift */; };
+		37C51D48240F688300412112 /* DPWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C51D45240F688300412112 /* DPWebService.swift */; };
+		37C51D4D240F6D0900412112 /* DPCategory+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C51D4A240F6D0900412112 /* DPCategory+Extention.swift */; };
+		37C51D4E240F6D0900412112 /* DPDate+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C51D4B240F6D0900412112 /* DPDate+Extention.swift */; };
+		37C51D4F240F6D0900412112 /* DPSortDescription+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C51D4C240F6D0900412112 /* DPSortDescription+Extention.swift */; };
+		37C51D52240F8DCD00412112 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C51D51240F8DCD00412112 /* RegisterViewController.swift */; };
+		37C51D55240FA1D700412112 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C51D54240FA1D700412112 /* HomeViewController.swift */; };
+		37C95A682416B7FE00F54077 /* VideoAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C95A672416B7FE00F54077 /* VideoAdViewController.swift */; };
+		37C95A6B2416C7A400F54077 /* NotificationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C95A6A2416C7A400F54077 /* NotificationDetailViewController.swift */; };
+		AF6CB94C24E7D80600C313B7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6CB94B24E7D80600C313B7 /* Extensions.swift */; };
+		AF80079525A465F2007A6BE4 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF80079325A465F2007A6BE4 /* MenuCell.swift */; };
+		AF80079625A465F2007A6BE4 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF80079425A465F2007A6BE4 /* MenuCell.xib */; };
+		AF8007A125A46CC3007A6BE4 /* AdvertiseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF80079F25A46CC3007A6BE4 /* AdvertiseCell.swift */; };
+		AF8007A225A46CC3007A6BE4 /* AdvertiseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF8007A025A46CC3007A6BE4 /* AdvertiseCell.xib */; };
+		F9E607CA27F2F204F289B763 /* Pods_Prakash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDBE336D4298E20640B5C3A /* Pods_Prakash.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F620BD242A81D3009E11F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37C51D25240F674600412112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F620B7242A81D3009E11F2;
+			remoteInfo = Service;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18F620C3242A81D3009E11F2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18F620BF242A81D3009E11F2 /* Service.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		180BE6322427D47700D98F30 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		185B8D7924461FA000CE19B4 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		18B65044242278B7008D41C2 /* YoutubePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubePlayerView.swift; sourceTree = "<group>"; };
+		18B65046242278E4008D41C2 /* YoutubePlayerExtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubePlayerExtras.swift; sourceTree = "<group>"; };
+		18E9DA3924228EB30081C6DE /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
+		18F620B1242A64DE009E11F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18F620B3242A6503009E11F2 /* Prakash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Prakash.entitlements; sourceTree = "<group>"; };
+		18F620B8242A81D3009E11F2 /* Service.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Service.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F620BA242A81D3009E11F2 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		18F620BC242A81D3009E11F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29533ECDB3D3A4AECAEB0DF3 /* Pods-Prakash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prakash.debug.xcconfig"; path = "Target Support Files/Pods-Prakash/Pods-Prakash.debug.xcconfig"; sourceTree = "<group>"; };
+		3740726724157701001D3336 /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		3740726A24157F8C001D3336 /* BloodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodViewController.swift; sourceTree = "<group>"; };
+		3740726D24159B64001D3336 /* DetailHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHistoryViewController.swift; sourceTree = "<group>"; };
+		377E409C24138340001858A4 /* PrakashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrakashViewController.swift; sourceTree = "<group>"; };
+		377E409F241394D2001858A4 /* PrakashDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrakashDetailViewController.swift; sourceTree = "<group>"; };
+		377E40A22413AC97001858A4 /* DirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryViewController.swift; sourceTree = "<group>"; };
+		37AB3CBA241CA4FC00E5FEB6 /* AddBloodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBloodViewController.swift; sourceTree = "<group>"; };
+		37AB3CBD241CB79100E5FEB6 /* AddDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDirectoryViewController.swift; sourceTree = "<group>"; };
+		37AB3CC0241CC1AE00E5FEB6 /* AddVideoAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVideoAdViewController.swift; sourceTree = "<group>"; };
+		37BCBFB4241957AF00C1A422 /* KDNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDNewsViewController.swift; sourceTree = "<group>"; };
+		37C51D2D240F674600412112 /* Prakash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prakash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C51D30240F674600412112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37C51D35240F674600412112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37C51D37240F674C00412112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37C51D3A240F674C00412112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37C51D3C240F674C00412112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C51D43240F688300412112 /* APICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		37C51D44240F688300412112 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		37C51D45240F688300412112 /* DPWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPWebService.swift; sourceTree = "<group>"; };
+		37C51D4A240F6D0900412112 /* DPCategory+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DPCategory+Extention.swift"; sourceTree = "<group>"; };
+		37C51D4B240F6D0900412112 /* DPDate+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DPDate+Extention.swift"; sourceTree = "<group>"; };
+		37C51D4C240F6D0900412112 /* DPSortDescription+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DPSortDescription+Extention.swift"; sourceTree = "<group>"; };
+		37C51D51240F8DCD00412112 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		37C51D54240FA1D700412112 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		37C95A672416B7FE00F54077 /* VideoAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAdViewController.swift; sourceTree = "<group>"; };
+		37C95A6A2416C7A400F54077 /* NotificationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDetailViewController.swift; sourceTree = "<group>"; };
+		3EDBE336D4298E20640B5C3A /* Pods_Prakash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prakash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6CB94B24E7D80600C313B7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF80079325A465F2007A6BE4 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		AF80079425A465F2007A6BE4 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		AF80079F25A46CC3007A6BE4 /* AdvertiseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertiseCell.swift; sourceTree = "<group>"; };
+		AF8007A025A46CC3007A6BE4 /* AdvertiseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvertiseCell.xib; sourceTree = "<group>"; };
+		B23B01FE2EA92BF028E0A4D8 /* Pods-Prakash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prakash.release.xcconfig"; path = "Target Support Files/Pods-Prakash/Pods-Prakash.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F620B5242A81D3009E11F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C51D2A240F674600412112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E607CA27F2F204F289B763 /* Pods_Prakash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F620B9242A81D3009E11F2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				18F620BA242A81D3009E11F2 /* NotificationService.swift */,
+				18F620BC242A81D3009E11F2 /* Info.plist */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		37407266241576E0001D3336 /* ChannelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3740726724157701001D3336 /* ChannelViewController.swift */,
+			);
+			path = ChannelViewController;
+			sourceTree = "<group>";
+		};
+		3740726924157F6C001D3336 /* BloodViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3740726A24157F8C001D3336 /* BloodViewController.swift */,
+			);
+			path = BloodViewController;
+			sourceTree = "<group>";
+		};
+		3740726C24159B26001D3336 /* DetailHistoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3740726D24159B64001D3336 /* DetailHistoryViewController.swift */,
+			);
+			path = DetailHistoryViewController;
+			sourceTree = "<group>";
+		};
+		377E409B24138312001858A4 /* PrakashViewController */ = {
+			isa = PBXGroup;
+			children = (
+				377E409C24138340001858A4 /* PrakashViewController.swift */,
+			);
+			path = PrakashViewController;
+			sourceTree = "<group>";
+		};
+		377E409E2413929F001858A4 /* PrakashDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				377E409F241394D2001858A4 /* PrakashDetailViewController.swift */,
+				185B8D7924461FA000CE19B4 /* ItemViewController.swift */,
+			);
+			path = PrakashDetailViewController;
+			sourceTree = "<group>";
+		};
+		377E40A12413AC7A001858A4 /* DirectoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				377E40A22413AC97001858A4 /* DirectoryViewController.swift */,
+			);
+			path = DirectoryViewController;
+			sourceTree = "<group>";
+		};
+		37AB3CB9241CA4D500E5FEB6 /* AddBloodViewController */ = {
+			isa = PBXGroup;
+			children = (
+				37AB3CBA241CA4FC00E5FEB6 /* AddBloodViewController.swift */,
+			);
+			path = AddBloodViewController;
+			sourceTree = "<group>";
+		};
+		37AB3CBC241CB77000E5FEB6 /* AddDirectoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				37AB3CBD241CB79100E5FEB6 /* AddDirectoryViewController.swift */,
+			);
+			path = AddDirectoryViewController;
+			sourceTree = "<group>";
+		};
+		37AB3CBF241CC18F00E5FEB6 /* AddVideoAdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				37AB3CC0241CC1AE00E5FEB6 /* AddVideoAdViewController.swift */,
+			);
+			path = AddVideoAdViewController;
+			sourceTree = "<group>";
+		};
+		37BCBFB32419578B00C1A422 /* KDNewsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				37BCBFB4241957AF00C1A422 /* KDNewsViewController.swift */,
+			);
+			path = KDNewsViewController;
+			sourceTree = "<group>";
+		};
+		37C51D24240F674600412112 = {
+			isa = PBXGroup;
+			children = (
+				37C51D2F240F674600412112 /* Prakash */,
+				18F620B9242A81D3009E11F2 /* Service */,
+				37C51D2E240F674600412112 /* Products */,
+				D235A3739A713A2A48AF0DD3 /* Pods */,
+				C7BB05704C1392FB8F5A47C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37C51D2E240F674600412112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37C51D2D240F674600412112 /* Prakash.app */,
+				18F620B8242A81D3009E11F2 /* Service.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37C51D2F240F674600412112 /* Prakash */ = {
+			isa = PBXGroup;
+			children = (
+				18F620B3242A6503009E11F2 /* Prakash.entitlements */,
+				37AB3CBF241CC18F00E5FEB6 /* AddVideoAdViewController */,
+				37AB3CBC241CB77000E5FEB6 /* AddDirectoryViewController */,
+				37AB3CB9241CA4D500E5FEB6 /* AddBloodViewController */,
+				37BCBFB32419578B00C1A422 /* KDNewsViewController */,
+				37C95A692416C76400F54077 /* NotificationDetailViewController */,
+				37C95A662416B79A00F54077 /* VideoAdViewController */,
+				3740726C24159B26001D3336 /* DetailHistoryViewController */,
+				3740726924157F6C001D3336 /* BloodViewController */,
+				37407266241576E0001D3336 /* ChannelViewController */,
+				377E40A12413AC7A001858A4 /* DirectoryViewController */,
+				377E409E2413929F001858A4 /* PrakashDetailViewController */,
+				377E409B24138312001858A4 /* PrakashViewController */,
+				37C51D53240FA1BC00412112 /* HomeViewController */,
+				37C51D50240F8DA600412112 /* RegisterViewController */,
+				37C51D49240F6D0900412112 /* Extention */,
+				37C51D42240F688300412112 /* Common Class */,
+				37C51D30240F674600412112 /* AppDelegate.swift */,
+				37C51D34240F674600412112 /* Main.storyboard */,
+				18F620B1242A64DE009E11F2 /* GoogleService-Info.plist */,
+				37C51D37240F674C00412112 /* Assets.xcassets */,
+				37C51D39240F674C00412112 /* LaunchScreen.storyboard */,
+				37C51D3C240F674C00412112 /* Info.plist */,
+			);
+			path = Prakash;
+			sourceTree = "<group>";
+		};
+		37C51D42240F688300412112 /* Common Class */ = {
+			isa = PBXGroup;
+			children = (
+				37C51D43240F688300412112 /* APICall.swift */,
+				37C51D44240F688300412112 /* Constant.swift */,
+				37C51D45240F688300412112 /* DPWebService.swift */,
+			);
+			path = "Common Class";
+			sourceTree = SOURCE_ROOT;
+		};
+		37C51D49240F6D0900412112 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				37C51D4A240F6D0900412112 /* DPCategory+Extention.swift */,
+				37C51D4B240F6D0900412112 /* DPDate+Extention.swift */,
+				37C51D4C240F6D0900412112 /* DPSortDescription+Extention.swift */,
+				AF6CB94B24E7D80600C313B7 /* Extensions.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		37C51D50240F8DA600412112 /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				37C51D51240F8DCD00412112 /* RegisterViewController.swift */,
+			);
+			path = RegisterViewController;
+			sourceTree = "<group>";
+		};
+		37C51D53240FA1BC00412112 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				37C51D54240FA1D700412112 /* HomeViewController.swift */,
+				180BE6322427D47700D98F30 /* WelcomeViewController.swift */,
+				AF80079325A465F2007A6BE4 /* MenuCell.swift */,
+				AF80079425A465F2007A6BE4 /* MenuCell.xib */,
+				AF80079F25A46CC3007A6BE4 /* AdvertiseCell.swift */,
+				AF8007A025A46CC3007A6BE4 /* AdvertiseCell.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		37C95A662416B79A00F54077 /* VideoAdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				37C95A672416B7FE00F54077 /* VideoAdViewController.swift */,
+				18B65044242278B7008D41C2 /* YoutubePlayerView.swift */,
+				18E9DA3924228EB30081C6DE /* PlayerVC.swift */,
+				18B65046242278E4008D41C2 /* YoutubePlayerExtras.swift */,
+			);
+			path = VideoAdViewController;
+			sourceTree = "<group>";
+		};
+		37C95A692416C76400F54077 /* NotificationDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				37C95A6A2416C7A400F54077 /* NotificationDetailViewController.swift */,
+			);
+			path = NotificationDetailViewController;
+			sourceTree = "<group>";
+		};
+		C7BB05704C1392FB8F5A47C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EDBE336D4298E20640B5C3A /* Pods_Prakash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D235A3739A713A2A48AF0DD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29533ECDB3D3A4AECAEB0DF3 /* Pods-Prakash.debug.xcconfig */,
+				B23B01FE2EA92BF028E0A4D8 /* Pods-Prakash.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F620B7242A81D3009E11F2 /* Service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F620C0242A81D3009E11F2 /* Build configuration list for PBXNativeTarget "Service" */;
+			buildPhases = (
+				18F620B4242A81D3009E11F2 /* Sources */,
+				18F620B5242A81D3009E11F2 /* Frameworks */,
+				18F620B6242A81D3009E11F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Service;
+			productName = Service;
+			productReference = 18F620B8242A81D3009E11F2 /* Service.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		37C51D2C240F674600412112 /* Prakash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C51D3F240F674C00412112 /* Build configuration list for PBXNativeTarget "Prakash" */;
+			buildPhases = (
+				950887E56F5D131F4B306750 /* [CP] Check Pods Manifest.lock */,
+				37C51D29240F674600412112 /* Sources */,
+				37C51D2A240F674600412112 /* Frameworks */,
+				37C51D2B240F674600412112 /* Resources */,
+				18F620C3242A81D3009E11F2 /* Embed App Extensions */,
+				A889E7931E18B8144EEF3F08 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F620BE242A81D3009E11F2 /* PBXTargetDependency */,
+			);
+			name = Prakash;
+			productName = Prakash;
+			productReference = 37C51D2D240F674600412112 /* Prakash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37C51D25240F674600412112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = I;
+				TargetAttributes = {
+					18F620B7242A81D3009E11F2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					37C51D2C240F674600412112 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 37C51D28240F674600412112 /* Build configuration list for PBXProject "Prakash" */;
+			compatibilityVersion = "Xcode 11.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37C51D24240F674600412112;
+			productRefGroup = 37C51D2E240F674600412112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37C51D2C240F674600412112 /* Prakash */,
+				18F620B7242A81D3009E11F2 /* Service */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F620B6242A81D3009E11F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C51D2B240F674600412112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F620B2242A64DE009E11F2 /* GoogleService-Info.plist in Resources */,
+				37C51D3B240F674C00412112 /* LaunchScreen.storyboard in Resources */,
+				AF80079625A465F2007A6BE4 /* MenuCell.xib in Resources */,
+				37C51D38240F674C00412112 /* Assets.xcassets in Resources */,
+				37C51D36240F674600412112 /* Main.storyboard in Resources */,
+				AF8007A225A46CC3007A6BE4 /* AdvertiseCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		950887E56F5D131F4B306750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prakash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A889E7931E18B8144EEF3F08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prakash/Pods-Prakash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prakash/Pods-Prakash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Prakash/Pods-Prakash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F620B4242A81D3009E11F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F620BB242A81D3009E11F2 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C51D29240F674600412112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C51D48240F688300412112 /* DPWebService.swift in Sources */,
+				AF6CB94C24E7D80600C313B7 /* Extensions.swift in Sources */,
+				37C95A682416B7FE00F54077 /* VideoAdViewController.swift in Sources */,
+				377E40A0241394D2001858A4 /* PrakashDetailViewController.swift in Sources */,
+				185B8D7A24461FA000CE19B4 /* ItemViewController.swift in Sources */,
+				3740726E24159B64001D3336 /* DetailHistoryViewController.swift in Sources */,
+				37C51D31240F674600412112 /* AppDelegate.swift in Sources */,
+				AF8007A125A46CC3007A6BE4 /* AdvertiseCell.swift in Sources */,
+				37AB3CC1241CC1AE00E5FEB6 /* AddVideoAdViewController.swift in Sources */,
+				180BE6332427D47700D98F30 /* WelcomeViewController.swift in Sources */,
+				37C51D4E240F6D0900412112 /* DPDate+Extention.swift in Sources */,
+				37C51D52240F8DCD00412112 /* RegisterViewController.swift in Sources */,
+				3740726824157701001D3336 /* ChannelViewController.swift in Sources */,
+				37C51D46240F688300412112 /* APICall.swift in Sources */,
+				37C51D55240FA1D700412112 /* HomeViewController.swift in Sources */,
+				AF80079525A465F2007A6BE4 /* MenuCell.swift in Sources */,
+				37C51D4D240F6D0900412112 /* DPCategory+Extention.swift in Sources */,
+				377E40A32413AC97001858A4 /* DirectoryViewController.swift in Sources */,
+				37AB3CBE241CB79100E5FEB6 /* AddDirectoryViewController.swift in Sources */,
+				377E409D24138340001858A4 /* PrakashViewController.swift in Sources */,
+				18E9DA3A24228EB30081C6DE /* PlayerVC.swift in Sources */,
+				37C51D47240F688300412112 /* Constant.swift in Sources */,
+				37BCBFB5241957AF00C1A422 /* KDNewsViewController.swift in Sources */,
+				18B65045242278B7008D41C2 /* YoutubePlayerView.swift in Sources */,
+				37AB3CBB241CA4FC00E5FEB6 /* AddBloodViewController.swift in Sources */,
+				37C51D4F240F6D0900412112 /* DPSortDescription+Extention.swift in Sources */,
+				37C95A6B2416C7A400F54077 /* NotificationDetailViewController.swift in Sources */,
+				18B65047242278E4008D41C2 /* YoutubePlayerExtras.swift in Sources */,
+				3740726B24157F8C001D3336 /* BloodViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F620BE242A81D3009E11F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F620B7242A81D3009E11F2 /* Service */;
+			targetProxy = 18F620BD242A81D3009E11F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37C51D34240F674600412112 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37C51D35240F674600412112 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37C51D39240F674C00412112 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37C51D3A240F674C00412112 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F620C1242A81D3009E11F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R343ZB7DUT;
+				INFOPLIST_FILE = Service/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prakash.app.Service;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "WildCard Provisional Profile";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18F620C2242A81D3009E11F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R343ZB7DUT;
+				INFOPLIST_FILE = Service/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prakash.app.Service;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "WildCard Provisional Profile";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		37C51D3D240F674C00412112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37C51D3E240F674C00412112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37C51D40240F674C00412112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29533ECDB3D3A4AECAEB0DF3 /* Pods-Prakash.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Prakash/Prakash.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R343ZB7DUT;
+				INFOPLIST_FILE = Prakash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prakash.app;
+				PRODUCT_NAME = Prakash;
+				PROVISIONING_PROFILE_SPECIFIER = Prakash_Store_Provisional_Profile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37C51D41240F674C00412112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B23B01FE2EA92BF028E0A4D8 /* Pods-Prakash.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Prakash/Prakash.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R343ZB7DUT;
+				INFOPLIST_FILE = Prakash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prakash.app;
+				PRODUCT_NAME = Prakash;
+				PROVISIONING_PROFILE_SPECIFIER = Prakash_Store_Provisional_Profile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F620C0242A81D3009E11F2 /* Build configuration list for PBXNativeTarget "Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F620C1242A81D3009E11F2 /* Debug */,
+				18F620C2242A81D3009E11F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C51D28240F674600412112 /* Build configuration list for PBXProject "Prakash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C51D3D240F674C00412112 /* Debug */,
+				37C51D3E240F674C00412112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C51D3F240F674C00412112 /* Build configuration list for PBXNativeTarget "Prakash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C51D40240F674C00412112 /* Debug */,
+				37C51D41240F674C00412112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37C51D25240F674600412112 /* Project object */;
+}
